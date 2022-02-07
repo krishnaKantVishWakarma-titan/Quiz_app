@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+###########################
+###########################
+###########################
+###########################
+####### index.html ########
+###########################
+###########################
+###########################
+###########################
+*/
+
+body{
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.header{
+    height: 54vh;  /* 100% of viewport */
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-position: top;
+    float: left;
+    width: 100%;
+}
+
+.header p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.header_main span{
+    float: left;
+    margin-right: 10px;
+}
+.header_main span img{
+    width: 25px;
+}
+.header_main{
+    width: 100%;
+    float: left;
+    height: 8vh;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 16px;
+    text-transform: uppercase;
+}
+
+.header_link{
+    width: 100%;
+    float: left;
+    height: 5vh;
+    background-color: grey;
+    padding-top: 8px;
+}
+
+.header_link a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 18%;
+    padding: 3px 9px;
+    border-radius: 3px;
+}
+
+.header_link a:hover{
+    background-color: black;
+}
+
+.about_text{
+    float: left;
+    width: 065%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.text_head{
+    float: left;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.about_img{
+    width: 32%;
+    height: 300px;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: top;
+    float: right;
+    margin-top: 3%;
+}
+
+.text{
+    float: left;
+    width: 90%;
+    height: 250px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+    line-height: 28px;
+}
+
+
+/* main containers */
+
+.main-container{
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.extra{
+    float: left;
+    width: 100%;
+    height: 120px;
+}
